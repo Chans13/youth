@@ -6,7 +6,7 @@ import os
 from dataclasses import dataclass
 
 
-DEFAULT_API_URL = "https://www.youthcenter.go.kr/opi/youthPlcyList.do"
+DEFAULT_API_URL = "https://www.youthcenter.go.kr/go/ythip/getPlcy"
 DEFAULT_HOST = "0.0.0.0"
 DEFAULT_PORT = 8000
 DEFAULT_TRANSPORT = "streamable-http"
