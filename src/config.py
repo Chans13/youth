@@ -66,7 +66,9 @@ def _load_dotenv() -> None:
                 continue
             name, value = stripped.split("=", 1)
             name = name.strip()
-            if not name or name in os.environ:
+            if not name:
+                continue
+            if os.environ.get(name, "") != "":
                 continue
             os.environ[name] = _strip_quotes(value.strip())
 
