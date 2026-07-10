@@ -24,7 +24,7 @@ MCP_TRANSPORT=streamable-http
 선택 환경변수:
 
 ```bash
-YOUTH_CENTER_API_URL=https://www.youthcenter.go.kr/opi/youthPlcyList.do
+YOUTH_CENTER_API_URL=https://www.youthcenter.go.kr/go/ythip/getPlcy
 YOUTH_CENTER_TIMEOUT_SECONDS=15
 ```
 
